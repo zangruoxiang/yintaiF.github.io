@@ -1,0 +1,588 @@
+body,
+html {
+	width: 100%;
+}
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset,
+img {
+	border: 0;
+}
+
+img {
+	display: block;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #666;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: #ff8400;
+	text-decoration: none;
+}
+
+body,
+html {
+	font-family: "微软雅黑";
+}
+
+
+/*-------------------------top left-----------------------*/
+
+#top-box {
+	width: 100%;
+	background: #eee;
+}
+
+#top {
+	height: 34px;
+	width: 1190px;
+	margin: 0 auto;
+}
+
+#top-left {
+	float: left;
+	margin-left: 10px;
+}
+
+#top-left img {
+	float: left;
+}
+
+#top-left li {
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 12px;
+}
+
+#top-left a {
+	border-right: 1px solid #ccc;
+}
+
+#top-left .top-left-left a {
+	height: 14px;
+	padding-right: 11px;
+	margin-right: 10px;
+}
+
+#top-left .top-left-left img {
+	margin-top: 7px;
+	margin-right: 6px;
+}
+
+#top-left .top-left-center img {
+	margin-top: 8px;
+	margin-right: 6px;
+}
+
+#top-left .top-left-center {
+	background: url(../img/top5.jpg) no-repeat right center;
+	position: absolute;
+	left: 142px;
+	padding-left: 10px;
+	z-index: 999;
+}
+
+#top-left .top-left-center a {
+	border: none;
+}
+
+#top-left .top-left-center-right {
+	float: right;
+	margin-left: 8px;
+	padding-top: 7px;
+	padding-right: 6px;
+}
+
+#top-left .top-left-right a {
+	border-right: 0;
+}
+
+#top-left .top-left-right {
+	position: absolute;
+	left: 230px;
+}
+
+#top-left .top-left-right img {
+	margin-left: 14px;
+	margin-top: 7px;
+	margin-right: 5px;
+}
+
+#top-left .top-left-right .top-left-right-right {
+	margin-left: 7px;
+	margin-top: 15px;
+	float: right;
+}
+
+#topnone1 {
+	width: 114px;
+	height: 124px;
+	padding-left: 10px;
+	padding-top: 15px;
+	position: absolute;
+	left: 142px;
+	display: none;
+}
+
+#topnone2 {
+	width: 148px;
+	height: 163px;
+	position: absolute;
+	left: 230px;
+	display: none;
+}
+
+#topnone3 ul li {
+	width: 76px;
+	height: 29px;
+	font-size: 12px;
+	color: #666;
+	line-height: 29px;
+	padding-left: 13px;
+	border-bottom: 1px solid #dcdcdc;
+	background: #fff;
+}
+
+#topnone3 ul li a:hover {
+	border-bottom: 1px solid;
+	border-color: #ff8400
+}
+
+#topnone3 ul {
+	position: absolute;
+	left: 991px;
+	z-index: 1000;
+}
+
+#topnone3 {
+	display: none;
+}
+
+
+/*-------------------------top right-----------------------*/
+
+#top-right {
+	float: right;
+	font-size: 12px;
+	margin-right: 11px;
+	line-height: 34px;
+}
+
+#top-right li,
+p {
+	float: left;
+}
+
+#top-right li {
+	padding: 0 13px;
+	background: url(../img/top5.jpg) no-repeat right center;
+}
+
+#top-right .top-right6 {
+	background: none;
+}
+
+#top-right .top-right1 {
+	background: none;
+	padding: 0;
+	margin-right: 2px;
+	margin-left: 12px;
+}
+
+#top-right .top-right4 img {
+	float: right;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+
+/*-------------------------logo-----------------------*/
+
+#logo-box {
+	height: 120px;
+	width: 100%;
+}
+
+#logo {
+	height: 120px;
+	width: 1190px;
+	margin: 0 auto;
+}
+
+#logo-box h1 {
+	margin-top: 21px;
+	float: left;
+}
+
+#logo-right {
+	float: left;
+}
+
+#search {
+	width: 452px;
+	height: 34px;
+	background: #323333;
+	margin-left: 142px;
+	margin-top: 40px;
+	float: left;
+	margin-bottom: 12px;
+}
+
+#search input {
+	width: 450px;
+	height: 28px;
+	border: 0;
+	margin-top: 2px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #888;
+	line-height: 12px;
+	float: left;
+}
+
+#logo-box button {
+	width: 46px;
+	height: 34px;
+	background: #323333 url(../img/logo2.jpg) no-repeat center center;
+	border: 0;
+	float: left;
+	margin-right: 18px;
+	margin-top: 40px;
+}
+
+#logo-right-right {
+	width: 160px;
+	height: 34px;
+	background: #323333;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 12px;
+}
+
+#logo-box ul {
+	margin-left: 142px;
+}
+
+#logo-box ul li {
+	float: left;
+	margin-right: 14px;
+	font-size: 12px;
+	color: #888;
+	line-height: 12px;
+}
+
+#logo-box ul li a:hover {
+	border-bottom: 1px solid #ff8400;
+}
+
+#logo-box .logoimg1 {
+	margin-top: 9px;
+	margin-left: 20px;
+	float: left;
+}
+
+#logo-right-right {
+	cursor: pointer;
+}
+
+#logo-right-right p {
+	float: left;
+	font-size: 12px;
+	color: #fff;
+	margin-left: 15px;
+	margin-top: 12px;
+	line-height: 12px;
+}
+
+#logo-right-right p span {
+	color: #d90048;
+	margin-left: 7px;
+	margin-right: 5px;
+}
+
+#logo-box .logoimg2 {
+	float: left;
+	margin-top: 15px;
+	margin-left: 19px;
+}
+
+
+/*-------------------------iphone-----------------------*/
+
+#iphone-box {
+	height: 88px;
+	width: 100%;
+}
+
+#iphone {
+	height: 88px;
+	width: 1188px;
+	margin: 0 auto;
+	border: 1px solid #eee;
+	background: #f7f7f7;
+}
+
+#iphone ul li {
+	width: 286px;
+	height: 88px;
+	border-right: 1px solid #eee;
+	float: left;
+}
+
+#iphone .iphone1 {
+	font-size: 12px;
+	width: 326px;
+	padding-top: 20px;
+	height: 68px;
+}
+
+#iphone .iphone1 p {
+	float: left;
+	height: 19px;
+	font-size: 16px;
+	color: #e5004f;
+	margin-left: 47px;
+	padding-left: 20px;
+	background: url(../img/ipone1.jpg) no-repeat left center
+}
+
+#iphone .iphone1 i {
+	font-style: normal;
+	float: left;
+	margin-top: 10px;
+	margin-left: 47px;
+	background: url(../img/iphone2.jpg) no-repeat left center;
+	padding-left: 20px
+}
+
+#iphone .iphone1 p span {
+	font-size: 12px;
+	color: #000;
+	margin-left: 22px;
+}
+
+#iphone .iphone2 {
+	background: url(../img/iphone3.jpg) no-repeat 50px center
+}
+
+#iphone .iphone2 p {
+	float: left;
+	height: 19px;
+	font-size: 16px;
+	color: #e5004f;
+	margin-left: 75px;
+	padding-left: 20px;
+	margin-top: 25px;
+}
+
+#iphone .iphone2 i {
+	font-style: normal;
+	float: left;
+	margin-left: 95px;
+	font-size: 12px;
+	color: #888888;
+}
+
+#iphone .iphone2 p span {
+	color: #000;
+}
+
+#iphone .iphone3 {
+	background: url(../img/iphone4.jpg) no-repeat 50px center
+}
+
+#iphone .iphone3 p {
+	float: left;
+	height: 19px;
+	font-size: 16px;
+	color: #e5004f;
+	margin-left: 75px;
+	padding-left: 20px;
+	margin-top: 25px;
+}
+
+#iphone .iphone3 i {
+	font-style: normal;
+	float: left;
+	margin-left: 95px;
+	font-size: 12px;
+	color: #888888;
+}
+
+#iphone .iphone3 p span {
+	color: #000;
+}
+
+#iphone .iphone4 {
+	background: url(../img/iphone5.jpg) no-repeat 45px center
+}
+
+#iphone .iphone4 p {
+	float: left;
+	height: 19px;
+	font-size: 16px;
+	color: #e5004f;
+	margin-left: 78px;
+	padding-left: 20px;
+	margin-top: 25px;
+}
+
+#iphone .iphone4 i {
+	font-style: normal;
+	float: left;
+	margin-left: 102px;
+	font-size: 12px;
+	color: #888888;
+}
+
+#iphone .iphone4 p span {
+	color: #000;
+}
+
+
+/*-------------------------bottom-----------------------*/
+
+#bottom-box {
+	height: 200px;
+	width: 100%;
+}
+
+#bottom {
+	height: 200px;
+	width: 1190px;
+	margin: 0 auto;
+}
+
+#bottom ul {
+	margin-left: 152px;
+	margin-top: 39px;
+}
+
+#bottom ul li {
+	float: left;
+	font-size: 12px;
+	color: #757575;
+	padding: 0 12px;
+	border-right: 1px solid #956695
+}
+
+#bottom .bottom-liS {
+	border: 0;
+}
+
+#bottom p {
+	width: 1190px;
+	line-height: 22px;
+	font-size: 12px;
+	color: #b2b2b2;
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom: 20px;
+}
+
+#bottom img {
+	float: left;
+	margin-right: 20px;
+}
+
+#bomImg {
+	margin-left: 425px;
+}
+
+.bomImg1 {
+	width: 113px;
+	height: 40px;
+}
+
+
+/*-------------------------nav-----------------------*/
+
+#nav-box {
+	height: 40px;
+	width: 100%
+}
+
+#nav {
+	height: 40px;
+	width: 1190px;
+	margin: 0 auto;
+}
+
+#nav ul li {
+	float: left;
+	margin-right: 30px;
+}
+
+#nav ul li:hover {
+	border-bottom: 3px solid red;
+}
+
+#nav ul li a {
+	font-size: 16px;
+	line-height: 37px;
+}
+
+#nav .navli1 {
+	width: 210px;
+	height: 40px;
+	background: #222;
+	text-align: center;
+	;
+	padding: 0;
+	margin-right: 25px;
+	border: 0;
+}
+
+#nav .navli1 a {
+	color: #fff;
+	font-size: 18px;
+	line-height: 39px;
+}
